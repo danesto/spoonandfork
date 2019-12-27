@@ -1,0 +1,207 @@
+* {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.bg-w {
+    background: white;
+}
+
+.btn-primary {
+    background-color: #285955 !important; border: 0 !important;
+
+}
+
+.text-primary {
+    color: #285955 !important;
+}
+
+
+
+.bg-primary {
+    background: #285955 !important;
+}
+
+.bg-header {
+    background-image: url('../img/rest.jpg');
+    background-size: cover;
+    max-width: 100%;
+    background-position: center;
+    height: 400px;
+    /* filter: brightness(1);
+    z-index: -1; */
+
+}
+
+.container-fluid {
+    overflow: hidden;
+}
+
+#triangle-topright {
+    width: 0;
+    height: 0;
+    border-top: 100px solid #285955;
+    border-left: 100px solid transparent;
+}
+
+.display-flex {
+    display: flex;
+}
+
+
+
+.img-sm {
+    width: 100px;
+    height: 100px;
+}
+
+.custom-control-input {
+    width: 20px !important;
+}
+
+.bg {
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.border-danger {
+    border: 1px solid #285955 !important;
+
+}
+
+.list-style-none {
+    list-style: none;
+
+}
+
+.h-400 {
+    height: 400px;
+}
+
+.text-w {
+    color: #fff;
+}
+
+.z {
+    z-index: 9999;
+}
+
+.text-bold {
+    font-weight: bolder;
+}
+
+.btn-search {
+    width: 45%;
+}
+
+.border-left,
+.border-right,
+.border-bottom,
+.border-top,
+.border {
+    border-color: rgba(0, 0, 0, .06) !important;
+}
+
+.lh1 {
+    line-height: 1;
+}
+
+/* gradovi */
+.belgrade {
+    background-image: url('../img/beograd.jpg');
+    background-position: center;
+
+}
+
+.ns {
+    background-image: url('../img/ns.jpg');
+    background-position: center;
+
+}
+
+.lh-60 {
+    line-height: 60px;
+}
+
+.list-primary {
+    /* display: flex; */
+    columns: 4;
+
+}
+
+.list-primary ul {
+    list-style-type: none;
+}
+
+.list-primary ul li a {
+    /* padding-bottom: 5px; */
+    font-weight: bold;
+}
+
+
+
+.list-secondary {
+    /* display: flex; */
+    columns: 1;
+
+}
+
+.list-secondary ul {
+    list-style-type: none;
+}
+
+.list-secondary ul li a {
+    color: #acacac;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+.under {
+    position: relative;
+}
+
+.over-image {
+    position: absolute;
+    top: 50%;
+    color: white;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+
+}
+
+.fw-bold {
+    font-weight: bold;
+    text-transform: uppercase;
+
+
+}
+
+.bg-darker {
+    background: #333;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+.border-bottom-sec{
+    border-bottom: 1px solid  #f2c46d55;
+}
+
+.text-sec{
+    color:  #f2c46d55;
+}
+
+.zoom:hover{
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+
+.triangle{
+    width: 0;
+height: 0;
+border-style: solid;
+border-width: 12.5px 25px 12.5px 0;
+border-color: transparent #fff transparent transparent;
+
+}
